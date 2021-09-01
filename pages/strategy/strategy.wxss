@@ -1,0 +1,8 @@
+/* pages/strategy/strategy.wxss */
+.page{
+  background: #ffffff;
+}
+.page-body{
+  text-align: center;
+  line-height: 5;
+}

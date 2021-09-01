@@ -1,0 +1,12 @@
+<view class='cart_box'>
+  <!-- <image src="/img/zanwu.gif"></image>
+  <text class='p'>暂无数据</text> -->
+  <!-- <button class='cu-btn' bindtap='chooseImage'>去上传</button> -->
+  <camera class="face_camera" device-position="front" ></camera>
+  <view class="videos">
+    <text>正对镜头</text>
+    <text style="margin-left: 10px;">光线充足</text>
+    <text style="margin-left: 10px;">不遮挡面部</text>
+  </view>
+  <button class="cu-btn" style="border-radius: 50px;"  bindtap="handleFaceCompare" hover-class="none">人脸识别</button>
+</view>

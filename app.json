@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/me/me",
+    "components/myVideo/myVideo",
+    "pages/map/map",
+    "pages/details/details",
+    "pages/strategy/strategy"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#1FA4FC",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#02A0E7",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./icon/index.png",
+        "selectedIconPath": "./icon/index_cur.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "获取视频",
+        "iconPath": "./icon/video.png",
+        "selectedIconPath": "./icon/select_video.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "./icon/me.png",
+        "selectedIconPath": "./icon/select_me.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于天气信息展示"
+    }
+  },
+  "usingComponents": {
+    "cu-custom":"/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

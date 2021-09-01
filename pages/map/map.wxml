@@ -1,0 +1,14 @@
+<!--pages/map/map.wxml-->
+<view class="board">
+  <map id="map"
+    class="map" 
+    style="height:{{mapHeight}}; width:{{mapWidth}}" 
+    bindtap="onMapTap" 
+    longitude="{{position.longitude}}"
+    latitude="{{position.latitude}}" 
+    scale="{{scala}}" 
+    markers="{{markers}}" 
+    controls="{{controls}}"
+    bindmarkertap="onMarkerTap"
+    show-location="true" />
+</view>

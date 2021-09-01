@@ -1,0 +1,34 @@
+<!-- 轮播 -->
+<swiper style="width:100%; height:300px" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}"
+  interval="{{interval}}" duration="{{duration}}">
+  <swiper-item wx:for="{{imgUrls}}" wx:for-item="item" wx:key="item">
+    <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>
+  </swiper-item>
+</swiper>
+
+<view class="page">
+    <!-- map -->
+  <view class="map">
+    <view style="padding-left: 20px;font-weight: 600;font-size: 18px;">{{title}}</view>
+    <image class="openMap" src="/img/map.jpg" bindtap="openMapTap"></image>
+  </view>
+   <!-- 游玩攻略 -->
+  <view class="map" bindtap="openStrategy">
+    <!-- <image class="strategy" src="/img/ly.jpg" mode="aspectFill"></image> -->
+    <view class="strategy">旅 游 攻 略</view>
+  </view>
+    <!-- 打卡点 -->
+  <view class="page__bd page__bd_spacing">
+    <view style="display: flex;align-items: center;margin-left: 15px;margin-top: 10px;margin-bottom: 10px;">
+      <span style="width: 4px;height: 20px;background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);border-radius: 10px;"></span>
+      <span style="margin-left: 5px;font-weight: bold;">热门打卡点</span>
+    </view>
+    <view class="weui-flex" wx:for="{{getList}}" wx:key="item" wx:for-item="item" bindtap="onclick" data-id="{{item.id}}">
+      <view class="demo">
+        <view class='item'>
+          <image class="image" src='{{item.image}}' mode="aspectFill"></image> 
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

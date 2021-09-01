@@ -1,0 +1,4 @@
+<!--pages/start/start.wxml-->
+<!-- <view wx:if="{{show_button}}" class="count_botton fade_in" bindtap="switchTab">跳过{{count}}s</view> -->
+<view wx:if="{{show_button}}" class="count_botton fade_in" bindtap="switchTab">立即体验</view>
+<image class="bg_img" mode="aspectFill" src="{{bg_img}}"></image>

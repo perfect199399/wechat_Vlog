@@ -1,0 +1,20 @@
+<!--pages/strategy/strategy.wxml-->
+<view class="page">
+  <view class="page-body">
+    <view wx:for="{{myVideo}}" wx:for-item="item" wx:key="item">
+      <video 
+        id="myVideo"
+        src="{{item.url}}" 
+        style="width: 345px;height: 195px;border-radius:10px;margin-top: 10px;" 
+        binderror="videoErrorCallback"
+        poster="https://img0.baidu.com/it/u=607507856,3841653179&fm=26&fmt=auto&gp=0.jpg"
+        show-play-btn="{{true}}"
+        show-casting-button="{{true}}"
+        picture-in-picture-mode="{{['push', 'pop']}}"
+        bindenterpictureinpicture='bindVideoEnterPictureInPicture'
+        bindleavepictureinpicture='bindVideoLeavePictureInPicture'>
+      </video>
+      <image  src="/img/gonglue.jpg" mode="scaleToFill" style="height: 1200px;margin-top: 20px;"></image>
+    </view>
+  </view>
+</view>

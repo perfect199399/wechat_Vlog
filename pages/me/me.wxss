@@ -1,0 +1,72 @@
+.UCenter-bg {
+  background-image: url(https://z3.ax1x.com/2021/08/31/hUvkd0.jpg);
+  background-size: cover;
+  height: 550rpx;
+  display: flex;
+  justify-content: center;
+  padding-top: 40rpx;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.UCenter-bg text {
+  opacity: 0.8;
+}
+
+.UCenter-bg image {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.UCenter-bg .gif-wave{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  mix-blend-mode: screen;  
+  height: 100rpx;   
+}
+
+map,.mapBox{
+  left: 0;
+  z-index: 99;
+  mix-blend-mode: screen;  
+  height: 100rpx;   
+}
+
+map,.mapBox{
+  width: 750rpx;
+  height: 300rpx;
+}
+.user-img {
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 100rpx;
+  justify-content: center;
+}
+.reason_txt{
+  color: #1AA0E1;
+  font-size: 30rpx;
+  display: table;
+  width: auto;
+  white-space: nowrap;
+  border-spacing: 0.5rem 0;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 200rpx;
+}
+.reason_txt::before,.reason_txt::after{
+  display: table-cell;
+  content: "";
+  width: 50%;
+  background: linear-gradient(#1AA0E1, #1AA0E1) repeat-x center;
+  background-size: 0.1rem 0.1rem;
+}
