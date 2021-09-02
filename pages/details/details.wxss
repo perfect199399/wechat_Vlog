@@ -1,6 +1,10 @@
 /* pages/details/details.wxss */
 @import '../../style/weui.wxss';
 @import '../../style/weuiFlex.wxss';
+
+.page{
+  background: #fff;
+}
 .slide-image{ 
   width: 100%;
   height: 100%;

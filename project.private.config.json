@@ -16,7 +16,7 @@
           "name": "pages/me/me",
           "pathName": "pages/me/me",
           "query": "",
-          "scene": null
+          "scene": 1011
         },
         {
           "name": "pages/cart/cart",
@@ -58,7 +58,7 @@
           "name": "pages/index/index",
           "pathName": "pages/index/index",
           "query": "",
-          "scene": null
+          "scene": 1011
         }
       ]
     }

@@ -34,9 +34,10 @@
     <view class="cu-item arrow">
       <button class="cu-btn content" open-type="contact" session-from="weapp">
         <text class="cuIcon-writefill text-cyan"></text>
-        <text class="text-grey">联系方式</text>
+        <text class="text-grey">联系客服</text>
       </button>
     </view>
   </view>
   <text class='reason_txt'>西安嵩硕教育科技有限公司研发出品</text>
+  <!-- <official-account></official-account> -->
 </scroll-view>

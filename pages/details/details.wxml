@@ -10,7 +10,7 @@
   
   <!-- 打卡规则 -->
   <view class="page__bd page__bd_spacing">
-    <view style="display: flex;align-items: center;margin-left: 10px;margin-top: 10px;">
+    <view style="display: flex;align-items: center;margin-left: 10px;padding-top: 10px;">
       <span style="width: 4px;height: 20px;background: #1FA4FC;border-radius: 10px;"></span>
       <span style="margin-left: 5px;font-weight: bold;">打卡规则</span>
     </view>
@@ -20,7 +20,7 @@
   </view>
   <!-- map -->
   <view class="map">
-    <view style="margin-left: 15px;font-weight: bolder;">{{title}}</view>
+    <view style="margin-left: 15px;font-weight: bolder;font-size: 15px;">{{title}}</view>
     <image class="openMap" src="/img/map.jpg" bindtap="openMapTap"></image>
   </view>
 
